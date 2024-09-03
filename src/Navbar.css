@@ -1,0 +1,24 @@
+/* Navbar.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.navbar a {
+    color: #dac7c7;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff6b6b;
+}

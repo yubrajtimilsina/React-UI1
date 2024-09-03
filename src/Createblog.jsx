@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom"
+
+import Navbar from "./Navbar"
 import './Createblog.css' 
 
 function Createblog() {
     return(
-        <h1>cccccc</h1>
+
+        <div>
+            <Navbar />
+        </div>
+
     )
 }
 export default Createblog

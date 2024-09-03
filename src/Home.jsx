@@ -1,24 +1,14 @@
 import { Link } from "react-router-dom"
 import './Home.css'
+import Navbar from "./Navbar"
 import { Fragment } from "react"
 
 function Home(){
     return (
         
         <Fragment>
-        <header class="header">
-        <a href="#" class="logo">
-            <img src="images/logo.png" alt="" />
-        </a>
-       <nav class="navbar">
-            <li><a href="#home">Home</a></li>
-           <li><Link to ="/blog">Blog</Link></li>
-           <li><Link to ="/createblog">Createblog</Link></li>
-        </nav>
-        </header>
-
+            <Navbar />
         <div class="box-container">
-
 
        <div class="box">
           <img src="images/menu-1.png" alt=""/>
