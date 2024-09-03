@@ -1,6 +1,11 @@
+import { Link } from "react-router-dom"
+import './Blog.css'
 function Blog(){
     return(
-        <h1>Blog</h1>
+    <>
+      <h1>Blog Details</h1>
+      
+    </>
     )
 }
 

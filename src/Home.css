@@ -1,0 +1,110 @@
+/* General resets and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    padding: 8px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .logo img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.navbar a.active {
+    background-color: #ff6b6b;
+    border-radius: 5px;
+}
+
+body {
+    padding-top: 80px;
+}
+
+/* Box Container Styles */
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 110px;
+    padding: 90px;
+}
+
+/* Box Styles */
+.box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    padding: 15px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.box h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.box .price {
+    font-size: 1.2rem;
+    color: #ff6b6b;
+    margin-top: 10px;
+}
+
+.box .price span {
+    color: #999;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+/* Hover Effects */
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
