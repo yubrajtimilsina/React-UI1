@@ -1,24 +1,50 @@
 /* Navbar.css */
+/* General resets and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #040404;
+    font-size: 16px;
+}
+
+/* Header styles */
 .header {
+    background-color: #171616;
+    padding: 1px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
-.logo img {
-    height: 50px;
+.header .logo img {
+    width: 80px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    gap: 50px;
 }
 
 .navbar a {
-    color: #dac7c7;
+    color: #fff;
     margin-left: 20px;
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s ease;
 }
-
+body {
+    padding-top: 80px;
+}
 .navbar a:hover {
     color: #ff6b6b;
 }
